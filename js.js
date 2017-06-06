@@ -1,7 +1,6 @@
 // on ES6
 document.getElementById('rezult').onclick = function rezultF() {
     let number = document.getElementById('number').value;
-
     let rezult = (a=+number) => {
         let b=1;
         for(let i=1; i<=4; i++){
@@ -32,7 +31,6 @@ document.getElementById('rezult2').onclick = function rezultF() {
     };
         rezult();
     }
-
 };
 
 data = {
